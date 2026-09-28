@@ -1,0 +1,4 @@
+# Ignore macOS metadata
+.DS_Store
+*.pyc
+__pycache__/

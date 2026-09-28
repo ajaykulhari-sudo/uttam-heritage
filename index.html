@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hotel Uttam Heritage — Clock Tower, Saharanpur</title>
+<meta name="description" content="Hotel Uttam Heritage is a modern hotel on Ambala Road by the Clock Tower, Saharanpur, opposite V-Mart. Four room types, a 24x7 front desk, lift, free parking and WiFi. Book direct." />
+
+<meta property="og:title" content="Hotel Uttam Heritage — Clock Tower, Saharanpur" />
+<meta property="og:description" content="A modern hotel by the Clock Tower on Ambala Road, Saharanpur. Four room types, a 24x7 front desk, lift and free parking." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="images/hero-executive.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════ NAV ═══════════════════ -->
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">Uttam Heritage</a>
+    <ul class="nav-links">
+      <li><a href="rooms.html">Rooms</a></li>
+      <li><a href="facilities.html">Facilities</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="#book" class="nav-cta" data-book>Book Now</a>
+    <button class="menu-toggle" aria-label="Menu">☰</button>
+  </div>
+</nav>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Clock Tower · Saharanpur · Uttar Pradesh</div>
+    <h1>Polished marble, warm walnut, <em>and a quiet night in the city.</em></h1>
+    <p>Hotel Uttam Heritage stands on Ambala Road by the Clock Tower, opposite V-Mart. Four kinds of room, a front desk that never closes, a lift to every floor, and free parking at the door.</p>
+    <div class="hero-ctas">
+      <a href="#book" class="btn btn-light">Check Availability</a>
+      <a href="rooms.html" class="btn btn-ghost">Explore Rooms</a>
+    </div>
+  </div>
+  <div class="hero-scroll">Scroll</div>
+</section>
+
+<!-- ═══════════════════ BOOKING BAR ═══════════════════ -->
+<section class="booking" id="book">
+  <div class="container">
+    <div class="booking-card">
+      <form class="booking-form" id="booking-form">
+        <div class="booking-field">
+          <label for="checkin">Check in</label>
+          <input type="date" id="checkin" name="checkin" required />
+        </div>
+        <div class="booking-field">
+          <label for="checkout">Check out</label>
+          <input type="date" id="checkout" name="checkout" required />
+        </div>
+        <div class="booking-field">
+          <label for="adults">Adults</label>
+          <select id="adults" name="adults">
+            <option value="1">1 Adult</option>
+            <option value="2" selected>2 Adults</option>
+            <option value="3">3 Adults</option>
+            <option value="4">4 Adults</option>
+          </select>
+        </div>
+        <div class="booking-field">
+          <label for="children">Children</label>
+          <select id="children" name="children">
+            <option value="0" selected>No children</option>
+            <option value="1">1 Child</option>
+            <option value="2">2 Children</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Check Availability</button>
+      </form>
+      <div class="booking-note">
+        <strong>Booking direct.</strong>
+        <span>Live rates and rooms open on our booking page — taxes shown before you pay, no commission in between.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ WELCOME ═══════════════════ -->
+<section class="welcome" id="welcome">
+  <div class="container">
+    <div class="welcome-grid">
+      <div class="welcome-image">
+        <img src="images/executive-cover-1.jpg" alt="An Executive Room at Hotel Uttam Heritage — walnut-panelled walls, a double bed and a carved sofa on a marble floor" />
+      </div>
+      <div class="welcome-text">
+        <span class="eyebrow">Welcome</span>
+        <h2 class="section-title">A heritage name, <em>a modern finish.</em></h2>
+        <p>Saharanpur is a city people come to for work, for family, for a wedding, or on the way up to the hills — and most of them want the same thing at the end of the day: a clean, quiet room they can find easily and park outside.</p>
+        <p>That's what Uttam Heritage is built for. The rooms are finished in polished marble-look floors and dark walnut panelling, lit warm, and made up fresh every day. The front desk is staffed through the night, the lift runs to every floor, and the power backup means the lights stay on when the city's don't.</p>
+        <div class="welcome-meta">
+          <div class="welcome-meta-item">
+            <span class="num">4</span>
+            <span class="label">Room Types</span>
+          </div>
+          <div class="welcome-meta-item">
+            <span class="num">39</span>
+            <span class="label">Rooms</span>
+          </div>
+          <div class="welcome-meta-item">
+            <span class="num">24×7</span>
+            <span class="label">Front Desk</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ ROOMS ═══════════════════ -->
+<section class="rooms">
+  <div class="container">
+    <div class="rooms-header">
+      <div>
+        <span class="eyebrow">The Rooms</span>
+        <h2 class="section-title">Four ways to <em>stay</em>.</h2>
+      </div>
+      <p class="section-intro">From a simple, spotless double for one night on business to an Executive Room that sleeps a family of four. Every room has an attached bathroom with a geyser, hot and cold water, fresh towels, a toiletries kit and a TV.</p>
+    </div>
+    <div class="rooms-grid">
+
+      <article class="room-card">
+        <div class="room-img"><img src="images/executive-cover-2.jpg" alt="Executive Room at Hotel Uttam Heritage — double bed against a panelled feature wall, polished marble floor" /></div>
+        <div class="room-body">
+          <h3>Executive Room</h3>
+          <p class="room-desc">The finest room in the house. A panelled feature wall, cove lighting, a smart TV and a marble-tiled bathroom with a vessel basin.</p>
+          <ul class="room-features">
+            <li>Double bed</li><li>Smart TV</li><li>Sleeps 2 (max 4)</li><li>9 rooms</li>
+          </ul>
+          <a href="rooms.html#executive-room" class="room-link">View Details →</a>
+        </div>
+      </article>
+
+      <article class="room-card">
+        <div class="room-img"><img src="images/deluxe-cover-2.jpg" alt="Deluxe Room at Hotel Uttam Heritage — double bed against a textured stone-effect wall" /></div>
+        <div class="room-body">
+          <h3>Deluxe Room</h3>
+          <p class="room-desc">A textured stone-effect wall, a full-length mirror and room for four — the one families book when they come for a function.</p>
+          <ul class="room-features">
+            <li>Double bed</li><li>DTH channels</li><li>Sleeps 2 (max 4)</li><li>7 rooms</li>
+          </ul>
+          <a href="rooms.html#deluxe-room" class="room-link">View Details →</a>
+        </div>
+      </article>
+
+      <article class="room-card">
+        <div class="room-img"><img src="images/standard-cover-1.jpg" alt="Standard A/C Room at Hotel Uttam Heritage — double bed with a patterned feature wall" /></div>
+        <div class="room-body">
+          <h3>Standard A/C Room</h3>
+          <p class="room-desc">Air-conditioned, neatly kept and well priced. The sensible choice for a couple or a solo traveller in town for a day or two.</p>
+          <ul class="room-features">
+            <li>Double bed</li><li>Air conditioned</li><li>Sleeps 2 (max 3)</li><li>8 rooms</li>
+          </ul>
+          <a href="rooms.html#standard-room" class="room-link">View Details →</a>
+        </div>
+      </article>
+
+    </div>
+    <div class="section-cta">
+      <a href="rooms.html" class="btn btn-outline">View All Four Rooms</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ EXPERIENCE / FACILITIES ═══════════════════ -->
+<section class="experience">
+  <div class="container">
+    <div class="experience-header">
+      <span class="eyebrow">The Experience</span>
+      <h2 class="section-title">What's <em>here</em>.</h2>
+      <p class="section-intro">No pool, no spa — just the things that make a city stay easy, done properly. These are the ones guests actually ask about.</p>
+    </div>
+
+    <div class="facilities-grid">
+      <div class="facility">
+        <svg class="facility-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+        </svg>
+        <h3>Front Desk, 24×7</h3>
+        <p>Reception is staffed round the clock, so a late train or an early flight is never a problem. Early check-in and late check-out on request.</p>
+      </div>
+      <div class="facility">
+        <svg class="facility-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M5 17h14M5 17a2 2 0 01-2-2V9a2 2 0 012-2h14a2 2 0 012 2v6a2 2 0 01-2 2M7 17v2M17 17v2M7 11h10"/>
+        </svg>
+        <h3>Free Parking &amp; Lift</h3>
+        <p>Park free at the hotel and take the lift up with your bags. Right on Ambala Road, opposite V-Mart — easy to find, even after dark.</p>
+      </div>
+      <div class="facility">
+        <svg class="facility-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M3 12h2l3-9 4 18 3-12 2 3h4"/>
+        </svg>
+        <h3>Room Service</h3>
+        <p>An in-house kitchen and room service to the door. Add breakfast or a meal plan when you book, and it's taken care of.</p>
+      </div>
+      <div class="facility">
+        <svg class="facility-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M5 12.55a11 11 0 0114 0M1.42 9a16 16 0 0121.16 0M8.53 16.11a6 6 0 016.95 0M12 20h.01"/>
+        </svg>
+        <h3>WiFi &amp; Power Backup</h3>
+        <p>WiFi across the hotel, air conditioning in the A/C rooms, and full power backup — so calls, laptops and the geyser keep working.</p>
+      </div>
+      <div class="facility">
+        <svg class="facility-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <circle cx="9" cy="8" r="3"/><circle cx="17" cy="10" r="2"/>
+          <path d="M3 20v-1a5 5 0 015-5h2a5 5 0 015 5v1M17 14a4 4 0 014 4v2"/>
+        </svg>
+        <h3>Couples &amp; Families</h3>
+        <p>Couple friendly for guests over 18 with valid ID. Children under five stay free, and an extra mattress can be added on request.</p>
+      </div>
+      <div class="facility">
+        <svg class="facility-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/>
+        </svg>
+        <h3>Safe &amp; Looked After</h3>
+        <p>CCTV, smoke detectors, fire extinguishers and first aid at the desk. Daily housekeeping and a laundry service keep the rest in order.</p>
+      </div>
+    </div>
+    <div class="section-cta">
+      <a href="facilities.html" class="btn btn-outline">Explore Facilities</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ GALLERY ═══════════════════ -->
+<section class="gallery">
+  <div class="container">
+    <div class="gallery-header">
+      <span class="eyebrow">A Look Around</span>
+      <h2 class="section-title">Marble, walnut, <em>warm light</em>.</h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="images/executive-mirror.jpg" alt="An Executive Room seen through its full-length walnut-framed mirror" /></div>
+      <div class="gallery-item"><img src="images/executive-bathroom.jpg" alt="A white vessel basin on a stone vanity in an Executive Room bathroom" /></div>
+      <div class="gallery-item"><img src="images/deluxe-cover-3.jpg" alt="A Deluxe Room with a mosaic stone feature wall and a full-length mirror" /></div>
+      <div class="gallery-item"><img src="images/executive-room-view.jpg" alt="An Executive Room with walnut panelling, an armchair and a double bed" /></div>
+    </div>
+    <div class="section-cta">
+      <a href="gallery.html" class="btn btn-outline">View Full Gallery</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ REVIEWS ═══════════════════ -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="reviews-inner">
+      <span class="eyebrow">Reviews &amp; Feedback</span>
+      <h2 class="section-title">What guests <em>say</em>.</h2>
+      <p class="section-intro">The truest account of a stay here comes from the people who've had one. Read what past guests have written on Google — and if you've stayed with us, a few honest words help the next guest know what to expect.</p>
+      <div class="reviews-ctas">
+        <a href="https://www.google.com/maps/search/?api=1&query=Hotel+Uttam+Heritage%2C+Saharanpur" target="_blank" rel="noopener" class="btn btn-primary">Read &amp; rate on Google</a>
+        <a href="contact.html" class="btn btn-outline">Share feedback</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ LOCATION ═══════════════════ -->
+<section class="location">
+  <div class="container">
+    <div class="location-grid">
+      <div class="location-text">
+        <span class="eyebrow">The Setting</span>
+        <h2 class="section-title">By the <em>Clock Tower</em>, on Ambala Road.</h2>
+        <p>The hotel sits on Ambala Road opposite V-Mart, next to Saharanpur's Ghanta Ghar — the one landmark every auto driver in the city knows. The station, the old markets and the city's temples are all a short ride away. Tap any landmark below for turn-by-turn directions.</p>
+        <ul class="location-list">
+          <li><span class="place">Ghanta Ghar (Clock Tower), Saharanpur</span><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Ghanta+Ghar%2C+Saharanpur" target="_blank" rel="noopener">Directions →</a></li>
+          <li><span class="place">Saharanpur Railway Station</span><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Saharanpur+Railway+Station" target="_blank" rel="noopener">Directions →</a></li>
+          <li><span class="place">Company Bagh, Saharanpur</span><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Company+Bagh%2C+Saharanpur" target="_blank" rel="noopener">Directions →</a></li>
+          <li><span class="place">Bhuteshwar Mahadev Mandir</span><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Bhuteshwar+Mahadev+Mandir%2C+Saharanpur" target="_blank" rel="noopener">Directions →</a></li>
+          <li><span class="place">Jama Masjid, Saharanpur</span><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Jama+Masjid%2C+Saharanpur" target="_blank" rel="noopener">Directions →</a></li>
+          <li><span class="place">Maa Shakumbhari Devi Temple</span><a class="dir" href="https://www.google.com/maps/dir/?api=1&destination=Shakumbhari+Devi+Temple%2C+Saharanpur" target="_blank" rel="noopener">Directions →</a></li>
+        </ul>
+        <a href="https://www.google.com/maps/search/?api=1&query=29.9643857%2C77.5451931" target="_blank" rel="noopener" class="btn btn-outline">Open in Google Maps</a>
+      </div>
+      <div class="location-image location-map">
+        <iframe title="Hotel Uttam Heritage on Google Maps — Clock Tower, Ambala Road, Saharanpur" src="https://www.google.com/maps?q=29.9643857,77.5451931&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ BOOK DIRECT ═══════════════════ -->
+<section class="assurance">
+  <div class="container">
+    <div class="assurance-grid">
+      <div class="assurance-item">
+        <svg class="assurance-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+          <path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
+        </svg>
+        <h3>The direct rate</h3>
+        <p>Book on our own page and there's no travel agent in the middle taking a cut of the room.</p>
+      </div>
+      <div class="assurance-item">
+        <svg class="assurance-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+          <path d="M9 11l2 2 4-4"/><circle cx="12" cy="12" r="9"/>
+        </svg>
+        <h3>Taxes up front</h3>
+        <p>The price you see at checkout is the price. Taxes and fees are itemised before you pay, not after.</p>
+      </div>
+      <div class="assurance-item">
+        <svg class="assurance-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+          <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+        </svg>
+        <h3>Check in from 12:00</h3>
+        <p>Check-out is 11:00. Early arrival and late departure can be arranged on request — just ask.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ CTA BANNER ═══════════════════ -->
+<section class="cta-banner">
+  <div class="container">
+    <h2>Your room at <em>Uttam Heritage</em>.</h2>
+    <p>Saharanpur fills up in the wedding season and on festival weekends, and the good rooms go first. If you know your dates, take them now.</p>
+    <a href="index.html#book" class="btn btn-ghost" data-book>Check Availability</a>
+  </div>
+</section>
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Uttam Heritage</a>
+        <p>A modern hotel by the Clock Tower on Ambala Road, Saharanpur — four room types, thirty-nine rooms, a front desk that never closes, and free parking at the door.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="facilities.html">Facilities</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Reach Us</h4>
+        <ul>
+          <li>Clock Tower, Ambala Road</li>
+          <li>Opp. V-Mart, Saharanpur, UP 247001</li>
+          <li><a href="tel:+917906501727">+91 79065 01727</a></li>
+          <li><a href="mailto:hoteluttamheritage@gmail.com">hoteluttamheritage@gmail.com</a></li>
+          <li><a href="https://digibooking.in/H179" target="_blank" rel="noopener">Book online</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Good to Know</h4>
+        <ul>
+          <li>Check-in 12:00 PM</li>
+          <li>Check-out 11:00 AM</li>
+          <li>Couple friendly, with valid ID</li>
+          <li>Free parking &amp; lift</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© <span data-year>2026</span> Hotel Uttam Heritage. All rights reserved.</div>
+      <div class="powered">Powered by DigiStay</div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
